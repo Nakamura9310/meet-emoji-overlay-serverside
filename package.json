@@ -1,0 +1,15 @@
+{
+  "name": "meet-emoji-overlay-serverside",
+  "version": "1.0.0",
+  "description": "meet-emoji-overlay-serverside script for heroku",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "nakamura_k",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pusher": "^4.0.0"
+  }
+}
