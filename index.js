@@ -3,10 +3,10 @@ const Pusher = require('pusher');
 
 // Pusherの設定
 const pusher = new Pusher({
-  appId: '1851248',
-  key: '66bdac555308ef2ecf22',
-  secret: 'a23c290cc5393afc0981',
-  cluster: 'ap3',
+  appId: process.env.PUSHER_APP_ID,
+  key: process.env.PUSHER_APP_KEY,
+  secret: process.env.PUSHER_APP_SECRET,
+  cluster: process.env.PUSHER_APP_CLUSTER,
   useTLS: true,
 });
 
